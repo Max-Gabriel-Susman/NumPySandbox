@@ -12,6 +12,10 @@ total_grade = test_1 + test_2 + test_3_fixed
 final_grade = total_grade / 3
 print(final_grade)
 
+# selecting elements from single dimensional arrays by index
+jeremy_test_2 = test_2[3]
+manual_adwoa_test_1 = np.array([test_1[1], test_1[2]])
+
 # multi-dimensional arrays
 coin_toss = np.array([1, 0, 0, 1, 0])
 
