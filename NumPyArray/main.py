@@ -29,3 +29,13 @@ student_scores = np.array([[92, 94, 88, 91, 87],
 tanya_test_3 = student_scores[2, 0]
 
 cody_test_scores = student_scores[:,4]
+
+# logical operations with arrays
+porridge = np.array([79, 65, 50, 63, 56, 90, 85, 98, 79, 51])
+
+cold = porridge[porridge < 60]
+hot = porridge[porridge > 80]
+just_right = porridge[(porridge >= 60) & (porridge <= 80)]
+print(cold)
+print(hot)
+print(just_right)
